@@ -6,5 +6,11 @@ for (let i = 0; i < 256; i++){
     div.style.border = "2px solid black";
     div.style.width = "30px";
     div.style.height = "30px";
+    div.addEventListener("mouseover",() =>{
+        div.style.backgroundColor = "red";
+    })
+
+
     container.appendChild(div);
+    
 }
