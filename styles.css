@@ -1,0 +1,8 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    height: 544px;
+    width: 544px;
+    flex-wrap: wrap;
+}
+/* a height and width of 544px was chosen because each square is 34px by 34px */
