@@ -1,8 +1,12 @@
 .container{
     border: 2px solid black;
     display: flex;
-    height: 544px;
-    width: 544px;
+    height: 960px;
+    width: 960px;
     flex-wrap: wrap;
 }
-/* a height and width of 544px was chosen because each square is 34px by 34px */
+
+.button{
+    padding: 5px;
+    margin: 10px
+}
